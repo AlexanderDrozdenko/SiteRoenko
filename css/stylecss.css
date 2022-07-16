@@ -62,27 +62,36 @@ html,body {
   .header__link {
     font-size: 12px;
     font-weight: 600;
+    padding:  10px 0;
   }
     .header__list li {
-      margin: 0px 0px 0px 9px;
+      margin: 0px 0px 0px 8px;
     }
     .header__logo img {
     max-width: 100px;
     }
+    .type__column {
+      flex: 0 1 33%;
+  }
   }
   
   @media (max-width: 475px) {
     .header__link {
       font-size: 8px;
-      font-weight: 400;
+    
     }
     .header__list li {
-      margin: 0px 0px 0px 7px;
+      margin: 0px 0px 0px 4px;
      padding:  5px 0;
     }
       .header__logo img {
-      max-width: 30px;
+      max-width: 20px;
       }
+     
+      .type__column {
+        flex: 0 1 50%;
+    }
+      
     }
 /* Блок Героя */
 .hero {
@@ -187,15 +196,19 @@ html,body {
 @media (max-width: 767px) {
   .tech__title {
     font-size: 35px;
-
+    margin-top: -35px;
   }
   .tech__row {
     display: block;
     margin: 0 auto;
-    width: 65%;
+    width: 100%;
   }
   .tech__body {
     text-align: center;
+  }
+  .tech__row{
+    
+  
   }
   .descr{
     display: none;
@@ -260,6 +273,21 @@ html,body {
 
   display: inline-block;
 }
+@media (max-width: 747px) {
+
+    .type__column {
+      flex: 0 1 33%;
+  }
+  }
+  
+  @media (max-width: 475px) {
+    
+     
+      .type__column {
+        flex: 0 1 50%;
+    }
+      
+    }
 /* Блок Футера */
 
  .footer {
