@@ -78,6 +78,7 @@ html,body {
     }
     .header__list li {
       margin: 0px 0px 0px 7px;
+     padding:  5px 0;
     }
       .header__logo img {
       max-width: 30px;
