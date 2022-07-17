@@ -374,7 +374,7 @@ html,body {
 }
 
 .text_block{
-
+  padding: 1px 0; 
   margin: 8px;
   border-radius: 5px;
 }
@@ -399,6 +399,13 @@ html,body {
   line-height: 1.2;
   padding:0 20px ;
 } 
+.text_list li:hover{
+  background-color: #afacac;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
 .text_block p{
   padding: 5px;
   margin-left: 15px;
